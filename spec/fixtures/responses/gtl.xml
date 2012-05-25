@@ -1,0 +1,300 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://api.affiliatewindow.com/">
+   <SOAP-ENV:Body>
+      <ns1:getTransactionListResponse>
+         <ns1:getTransactionListReturn>
+            <ns1:Transaction>
+               <ns1:iId>59330775</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>193.130.64.132</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>186.29</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>7.45</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-10-31 17:36:03</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-11-01 12:37:41</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-22 10:32:50</ns1:dValidationDate>
+               <ns1:sClickref>1185896</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>186.29</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>7.45</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+            <ns1:Transaction>
+               <ns1:iId>59333209</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>132.244.72.4</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>148.97</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>5.96</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-11-01 13:10:12</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-11-01 13:17:25</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-22 10:32:51</ns1:dValidationDate>
+               <ns1:sClickref>1186106</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>148.97</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>5.96</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+            <ns1:Transaction>
+               <ns1:iId>59343524</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>132.244.72.4</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>5</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>0.2</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-11-01 13:10:12</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-11-01 16:15:02</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-22 10:32:56</ns1:dValidationDate>
+               <ns1:sClickref>1186106</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>5</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>0.2</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+            <ns1:Transaction>
+               <ns1:iId>59424719</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>94.169.89.183</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>111.57</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>4.46</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-10-31 15:32:39</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-11-02 21:55:10</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-22 10:33:41</ns1:dValidationDate>
+               <ns1:sClickref>1185864</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>111.57</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>4.46</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+            <ns1:Transaction>
+               <ns1:iId>59515278</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>81.132.98.155</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>29.95</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>1.2</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-11-03 08:14:54</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-11-04 13:47:17</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-22 10:34:37</ns1:dValidationDate>
+               <ns1:sClickref>1186534</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>29.95</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>1.2</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+            <ns1:Transaction>
+               <ns1:iId>59188037</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>88.104.47.79</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>14.99</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>0.6</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-09-28 23:35:24</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-10-29 20:45:25</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-23 11:58:29</ns1:dValidationDate>
+               <ns1:sClickref>1171190</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>14.99</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>0.6</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+            <ns1:Transaction>
+               <ns1:iId>59166839</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>82.30.81.149</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>367.17</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>14.69</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-10-02 22:12:49</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-10-29 13:43:08</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-23 11:58:35</ns1:dValidationDate>
+               <ns1:sClickref>1172375</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>367.17</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>14.69</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+            <ns1:Transaction>
+               <ns1:iId>58950316</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>81.86.102.80</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>134.99</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>5.4</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-10-24 15:01:13</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-10-25 16:33:09</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-24 11:44:20</ns1:dValidationDate>
+               <ns1:sClickref>1182218</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>134.99</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>5.4</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+            <ns1:Transaction>
+               <ns1:iId>59679056</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>199.64.72.252</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>6</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>0.24</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-11-07 14:55:41</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-11-07 15:37:29</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-25 09:23:01</ns1:dValidationDate>
+               <ns1:sClickref>1187697</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>6</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>0.24</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+            <ns1:Transaction>
+               <ns1:iId>59682471</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>188.92.33.40</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>3</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>0.12</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-11-07 13:02:48</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-11-07 16:31:04</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-25 09:23:03</ns1:dValidationDate>
+               <ns1:sClickref>1187673</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>3</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>0.12</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+            <ns1:Transaction>
+               <ns1:iId>59691293</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>193.113.57.165</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>11.98</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>0.48</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-11-07 15:05:59</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-11-07 18:12:25</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-25 09:23:05</ns1:dValidationDate>
+               <ns1:sClickref>1187701</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>11.98</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>0.48</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+            <ns1:Transaction>
+               <ns1:iId>59697970</ns1:iId>
+               <ns1:sStatus>confirmed</ns1:sStatus>
+               <ns1:sType>normal</ns1:sType>
+               <ns1:sIp>62.40.32.24</ns1:sIp>
+               <ns1:bPaid>false</ns1:bPaid>
+               <ns1:iPaymentId>0</ns1:iPaymentId>
+               <ns1:iMerchantId>2698</ns1:iMerchantId>
+               <ns1:fSaleAmount>6.05</ns1:fSaleAmount>
+               <ns1:fCommissionAmount>0.24</ns1:fCommissionAmount>
+               <ns1:dClickDate>2011-11-07 19:44:08</ns1:dClickDate>
+               <ns1:dTransactionDate>2011-11-07 19:49:00</ns1:dTransactionDate>
+               <ns1:dValidationDate>2011-11-25 09:23:08</ns1:dValidationDate>
+               <ns1:sClickref>1187738</ns1:sClickref>
+               <ns1:aTransactionParts>
+                  <ns1:TransactionPart>
+                     <ns1:sCommissionGroupName>Default Commission</ns1:sCommissionGroupName>
+                     <ns1:fSaleAmount>6.05</ns1:fSaleAmount>
+                     <ns1:fCommissionAmount>0.24</ns1:fCommissionAmount>
+                     <ns1:iCommission>4</ns1:iCommission>
+                     <ns1:sCommissionType>percentage</ns1:sCommissionType>
+                  </ns1:TransactionPart>
+               </ns1:aTransactionParts>
+            </ns1:Transaction>
+         </ns1:getTransactionListReturn>
+         <ns1:getTransactionListCountReturn>
+            <ns1:iRowsReturned>12</ns1:iRowsReturned>
+            <ns1:iRowsAvailable>12</ns1:iRowsAvailable>
+         </ns1:getTransactionListCountReturn>
+      </ns1:getTransactionListResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -2,6 +2,12 @@
 
 Description goes here.
 
+== ToDo
+
+* Use VCR for test coverage
+* Extend test coverage to actually connect to API with real URLs and test responses, to protect against API changes.
+* Handle 'merchant' user type for AffiliateService authentications.
+
 == Contributing to affiliate-window
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet

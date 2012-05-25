@@ -7,7 +7,7 @@ module AffiliateWindow::Clients
 
     attr :filter
 
-    URL_TEMPLATE = 'https://www.affiliatewindow.com/affiliates/shopwindow/datafeed_metadata.php?user=#{user}&password=#{datafeed_password}&format=#{format}&filter=#{filter}&compression=#{compression_parameter}'
+    URL_TEMPLATE = 'https://www.affiliatewindow.com/affiliates/shopwindow/datafeed_metadata.php?user=#{user}&password=#{datafeed_password}&format=#{format}&filter=#{filter}&compression='
 
     VALID_FILTERS = %w{SUBSCRIBED_ALL SUBSCRIBED_ENABLED ALL_ALL ALL_ENABLED}
 

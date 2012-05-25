@@ -35,7 +35,7 @@ module AffiliateWindow
         end
 
         def merchant_id_list
-          merchants.collect(&:id).join(',')
+          merchants.collect(&:merchant_id).join(',')
         end
 
     end

@@ -4,7 +4,9 @@ module AffiliateWindow
 
     VALID_FORMATS = %w{CSV} # XML not yet supported.
 
-    VALID_COMPRESSIONS = %w{zip none}
+    # Unzipping is not supported for portability, but you can specify it to download a zipped file.
+    # CSV helper methods won't work with zipped downloads.
+    VALID_COMPRESSIONS = %w{none zip}
 
     def initialize(options)
       @user ||= options[:user] || raise(ArgumentError, ":user option is required.")

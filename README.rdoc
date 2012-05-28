@@ -76,7 +76,7 @@ There's currently only a Transaction model, and this is a work in progress.
 
 == In production
 
-This is in production use on http://www.bikepimp.co.uk/. If you're using this, let me know.
+This is in production use on http://www.bikepimp.co.uk. If you're using this, let me know.
 
 
 == Contributing to affiliate-window

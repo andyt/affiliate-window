@@ -1,12 +1,78 @@
 = affiliate-window
 
-Description goes here.
+This Ruby gem contains clients for the AffiliateWindow (http://www.affiliatewindow.com/) suite of APIs and webservices. It currently supports:
+
+ * AffiliateService (SOAP)
+ * Merchant and category meta-data
+ * ShopWindow data feeds.
+
+
+== Getting started
+
+Configure an account for the gem to use with all clients. If you're working with Rails, you could do this in an initializer:
+
+    AffiliateWindow.account = AffiliateWindow::Account.new(
+      :user => '12345', 
+      :datafeed_password => 'e9db...', 
+      :api_key => 'fc70...',
+      :api_password => 'dc3024ea...'
+    )
+
+
+== Examples
+
+
+=== AffiliateService
+
+To get all today's transactions with the AffiliateService SOAP client:
+
+    client = AffiliateWindow::Clients::AffiliateService.new
+    response = client.request(:get_transaction_list) do
+      soap.body = { 
+        :d_start_date => Time.now.beginning_of_day, 
+        :d_end_date => Time.now.end_of_day, 
+        :s_date_type => 'transaction'
+      }
+    end
+
+    puts r.to_hash
+
+This outputs something like:
+
+    {:get_transaction_list_response=>{:get_transaction_list_return=>{:transaction=>{:i_id=>"72417910", :s_status=>"pending", :s_type=>"normal", :s_ip=>"0.0.0.0", :b_paid=>false, :i_payment_id=>"0", :i_merchant_id=>"9999", :f_sale_amount=>"318.74", :f_commission_amount=>"9.56", :d_click_date=>"2012-05-26 19:48:30", :d_transaction_date=>"2012-05-26 20:41:03", :s_clickref=>"4fc125b25ef7f37589000ac7", :a_transaction_parts=>{:transaction_part=>{:s_commission_group_name=>"Default Commission", :f_sale_amount=>"318.74", :f_commission_amount=>"9.56", :i_commission=>"3", :s_commission_type=>"percentage"}}}}, :get_transaction_list_count_return=>{:i_rows_returned=>"1", :i_rows_available=>"1"}}}
+
+
+=== ShopWindow
+
+To download a product feed CSV for a set of merchants:
+
+    store_to = "tmp/data.csv.zip"
+    client = AffiliateWindow::Clients::ShopWindow.new(:merchant_ids => [1,2,3,4])
+    client.fetch(store_to)
+
+
+=== Merchants and categories
+
+Merchants:
+
+    AffiliateWindow::Clients::Merchant.new.each { |merchant| puts merchant.inspect }
+
+Categories:
+
+    AffiliateWindow::Clients::Category.new.each { |category| puts merchant.inspect }
+
+
+== Models
+
+There's currently only a Transaction model, and this is a work in progress.
+
 
 == ToDo
 
 * Use VCR for test coverage
 * Extend test coverage to actually connect to API with real URLs and test responses, to protect against API changes.
 * Handle 'merchant' user type for AffiliateService authentications.
+
 
 == Contributing to affiliate-window
  
@@ -17,6 +83,7 @@ Description goes here.
 * Commit and push until you are happy with your contribution
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
 
 == Copyright
 

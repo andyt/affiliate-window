@@ -16,8 +16,8 @@ module AffiliateWindow
 
         describe 'Instances' do
           before do
-            @merchants = 3.times.map { |id| stub(:id => id) }
-            @client = Klass.new(:account => account, :merchants => @merchants)
+            @merchant_ids = [1,2,3]
+            @client = Klass.new(:account => account, :merchant_ids => @merchant_ids)
           end
 
           it 'handles CSV files' do
@@ -29,7 +29,7 @@ module AffiliateWindow
           describe '#url' do
             it 'returns a completed URL template' do
               @client.url.must_match /#{account.api_key}/
-              @client.url.must_match /#{@merchants.collect{|m| m.id}.join(',')}/
+              @client.url.must_match /#{@merchant_ids.join(',')}/
               @client.url.must_match /#{Klass::DEFAULT_COLUMNS.join(',')}/
             end
           end

@@ -7,7 +7,7 @@ module AffiliateWindow
       include AffiliateWindow::Helpers::Account
       include AffiliateWindow::Helpers::Csv
 
-      attr :merchants
+      attr :merchant_ids
 
       URL_TEMPLATE = 'http://datafeed.api.productserve.com/datafeed/download/apikey/#{api_key}/mid/#{merchant_id_list}/columns/#{column_list}/format/#{format.downcase}/compression/#{compression_parameter}/'
 
@@ -35,7 +35,7 @@ module AffiliateWindow
         end
 
         def merchant_id_list
-          merchants.collect(&:merchant_id).join(',')
+          merchant_ids.join(',')
         end
 
     end

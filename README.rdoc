@@ -2,9 +2,9 @@
 
 This Ruby gem contains clients for the AffiliateWindow (http://www.affiliatewindow.com/) suite of APIs and webservices. It currently supports:
 
- * AffiliateService (SOAP)
- * Merchant and category meta-data
- * ShopWindow data feeds.
+* AffiliateService (SOAP)
+* Merchant and category meta-data
+* ShopWindow data feeds.
 
 
 == Getting started
@@ -72,6 +72,11 @@ There's currently only a Transaction model, and this is a work in progress.
 * Use VCR for test coverage
 * Extend test coverage to actually connect to API with real URLs and test responses, to protect against API changes.
 * Handle 'merchant' user type for AffiliateService authentications.
+
+
+== In production
+
+This is in production use on http://www.bikepimp.co.uk/. If you're using this, let me know.
 
 
 == Contributing to affiliate-window

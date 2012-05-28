@@ -63,6 +63,8 @@ module AffiliateWindow
 
       end
 
+      protected
+
       def convert_key(key)
         key.to_s.gsub(/^[#{CONVERSIONS.keys.map(&:to_s).join}]_/, '')
       end

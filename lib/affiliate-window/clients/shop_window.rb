@@ -9,7 +9,9 @@ module AffiliateWindow
 
       attr :merchant_ids
 
-      URL_TEMPLATE = 'http://datafeed.api.productserve.com/datafeed/download/apikey/#{api_key}/mid/#{merchant_id_list}/columns/#{column_list}/format/#{format.downcase}/compression/#{compression_parameter}/'
+      # This URL template only works for a selection of merchants by ID.
+      # It ignores the compression setting in account. Valid options are zip or gzip. We use zip.
+      URL_TEMPLATE = 'http://datafeed.api.productserve.com/datafeed/download/apikey/#{api_key}/mid/#{merchant_id_list}/columns/#{column_list}/format/#{format.downcase}/compression/zip/'
 
       DEFAULT_COLUMNS = %w{ merchant_id merchant_name aw_product_id merchant_product_id product_name description 
                             category_id category_name merchant_category aw_deep_link aw_image_url search_price 
